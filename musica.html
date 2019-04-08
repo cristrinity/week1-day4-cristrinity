@@ -8,69 +8,69 @@
 </head>
 <body>
 
-    <header>
+    <header class="header">
 
-        <img src="logotipo.jpg">
-        <button type="button"></button>
+        <img src="logotipo.jpg" class="img img__logo">
+        <button type="button" class="btn btn__icon"></button>
         
-        <h1>Music</h1>
+        <h1 class="section-title section-title__bigger">Music</h1>
         
-        <nav>
-                <a href="#">Discover</a>
-                <a href="#">Rising</a>
-                <a href="#">Inspiration</a>
-                <a href="#">My stars</a>
+        <nav class="navbar">
+                <a href="#" class="navbar__link">Discover</a>
+                <a href="#" class="navbar__link">Rising</a>
+                <a href="#" class="navbar__link">Inspiration</a>
+                <a href="#" class="navbar__link">My stars</a>
                 <br>
-                <a href="#">Songs</a>
-                <a href="#">Artists</a>
-                <a href="#">Albums</a>
-                <a href="#">Radio</a>
+                <a href="#" class="navbar__link">Songs</a>
+                <a href="#" class="navbar__link">Artists</a>
+                <a href="#" class="navbar__link">Albums</a>
+                <a href="#" class="navbar__link">Radio</a>
         </nav>
 
-        <button type="button">Playlists</button><span>+</span>
+        <button type="button" class="btn btn__text">Playlists</button><span>+</span>
 
-        <ul>
-            <li>UpLabs focus</li>
-            <li>Golden 80s</li>
-            <li>Gaming</li>
-            <li>OSTs</li>
-            <li>Playlist title</li>
-            <li>Smash it!</li>
+        <ul class="list">
+            <li class="list__option">UpLabs focus</li>
+            <li class="list__option"> Golden 80s</li>
+            <li class="list__option">Gaming</li>
+            <li class="list__option">OSTs</li>
+            <li class="list__option">Playlist title</li>
+            <li class="list__option">Smash it!</li>
         </ul>
     
     </header>
     
-    <main>
+    <main class="section-main">
         
         <div>
-            <input type="search" id="buscador" placeholder="Type here to search">
-            <span>AndrewZ</span>
-            <img class="userprofile" src="user-profile.jpg" alt="imagen de perfil">
+            <input class="form__input form--transparent" type="search" id="buscador" placeholder="Type here to search">
+            <span class="text-line">AndrewZ</span>
+            <img class="img img__profile" class="userprofile" src="user-profile.jpg" alt="imagen de perfil">
         </div>
         
-        <button type="button">Save to My stars</button>
+        <button type="button" class="btn btn__mystars">Save to My stars</button>
         
-        <h2>Gorillaz</h2>
+        <h2 class="section-title section-title__smaller">Gorillaz</h2>
 
-        <button type="button">Albums</button>
-        <button type="button">About</button>
-        <button type="button">Related artists</button>
+        <button type="button" class="btn btn__text">Albums</button>
+        <button type="button" class="btn btn__text">About</button>
+        <button type="button" class="btn btn__text">Related artists</button>
 
-        <ul>
-            <li>
-                <img src="..." alt="">
+        <ul class="list list__decorated">
+            <li class="list__group">
+                <img src="..." alt="" class="list--img">
                 Humanz (Deluxe)<br>
-                <span>2017</span>
+                <span class="list--date">2017</span>
             </li>
-            <li>
-                <img src="..." alt="">
+            <li class="list__group">
+                <img src="..." alt="" class="list--img">
                 Plastic Beach<br>
-                <span>2010</span>                
+                <span class="list--date">2010</span>                
             </li>
-            <li>
-                <img src="..." alt="">
+            <li class="list__group">
+                <img src="..." alt="" class="list--img">
                 The fall<br>
-                <span>2017</span>                
+                <span class="list--date">2017</span>                
             </li>
             <li></li>
             <li></li>
@@ -80,85 +80,85 @@
 
     <aside>
 
-        <h3>Random selection</h3>
+        <h3 class="section-title section-title--smallerx2">Random selection</h3>
 
-        <ul>
-            <li class="cancion">
-                <a href="#">Feel Good Inc</a>
-                <small>Demon Days</small>
-                <span class="oculto"><button type="button" class="addsong"></button></span>
-                <span>3:43</span>
+        <ul class="list list__undecorated">
+            <li class="list__group">
+                <a class="list__link" href="#">Feel Good Inc</a>
+                <small class="list__link">Demon Days</small>
+                <span class="list__link"><button type="button" class="btn list__btn"></button></span>
+                <span class="list__link">3:43</span>
             </li>
-            <li class="cancion">
+            <li class="list__group">
                 <a href="#">Humillity (Feat. George Benson)</a>
-                <small>Fire Files</small>
-                <span class="oculto"><button type="button" class="addsong"></button></span>
-                <span>3:17</span>
+                <small class="list__link">Fire Files</small>
+                <span class="list__link"><button type="button" class="btn list__btn"></button></span>
+                <span class="list__link">3:17</span>
             </li>            
-            <li class="cancion">
+            <li class="list__group">
                 <a href="#">Clint Eastwood</a>
-                <small>Gorillaz</small>
-                <span class="oculto"><button type="button" class="addsong"></button></span>
-                <span>5:40</span>
+                <small class="list__link">Gorillaz</small>
+                <span class="list__link"><button type="button" class="btn list__btn"></button></span>
+                <span class="list__link">5:40</span>
             </li>
-            <li class="cancion">
+            <li class="list__group">
                 <a href="#">Oh Melancholy Hill</a>
-                <small>Plastic Beach</small>
-                <span class="visible"><button type="button" class="addsong"></button></span>
-                <span>3:53</span>
+                <small class="list__link list--active">Plastic Beach</small>
+                <span class="list__link"><button type="button" class="btn list__btn"></button></span>
+                <span class="list__link">3:53</span>
             </li>
-            <li class="cancion">
+            <li class="list__group">
                 <a href="#">DARE</a>
-                <small>Demon Days</small>
-                <span class="oculto"><button type="button" class="addsong"></button></span>
-                <span>4:04</span>
+                <small class="list__link">Demon Days</small>
+                <span class="list__link"><button type="button" class="btn list__btn"></button></span>
+                <span class="list__link">4:04</span>
             </li>
-            <li class="cancion">
+            <li class="list__group">
                 <a href="#">Saturn Barz (feat.Popcaan)</a>
-                <small>Humanz</small>
-                <span class="oculto"><button type="button" class="addsong"></button></span>
-                <span>4:04</span>
+                <small class="list__link">Humanz</small>
+                <span class="list__link"><button type="button" class="btn list__btn"></button></span>
+                <span class="list__link">4:04</span>
             </li>
-            <li class="cancion">
+            <li class="list__group">
                 <a href="#">Dirty</a>
-                <small>Demon Days</small>
-                <span class="oculto"><button type="button" class="addsong"></button></span>
-                <span>2:45</span>
+                <small class="list__link">Demon Days</small>
+                <span class="list__link"><button type="button" class="btn list__btn"></button></span>
+                <span class="list__link">2:45</span>
             </li>   
-            <li class="cancion">
+            <li class="list__group">
                 <a href="#">Lake Zurich</a>
-                <small>Files Days</small>
-                <span class="oculto"><button type="button" class="addsong"></button></span>
-                <span>3:50</span>
+                <small  class="list__link">Files Days</small>
+                <span class="list__link"><button type="button" class="btn list__btn"></button></span>
+                <span class="list__link">3:50</span>
             </li>        
         </ul>
     </aside>
     
-    <section>
+    <section class="section bar bar__kark">
 
-        <img src=".." alt="">
+        <img src=".." alt="" class="list--img">
         Rhineston Eyes<br>
         Gorillaz
 
-        <div>
-            <button type="button>"></button>
-            <button type="button>"></button>
-            <button type="button>"></button>
-            <button type="button>"></button>
-            <button type="button>"></button>
+        <div class="icons-link">
+            <button type="button" class="btn icons-link__btn"></button>
+            <button type="button" class="btn icons-link__btn"></button>
+            <button type="button" class="btn icons-link__btn"></button>
+            <button type="button" class="btn icons-link__btn"></button>
+            <button type="button" class="btn icons-link__btn"></button>
         </div>
         
-        <div>
+        <div class="icons-link">
 
-            <span class="audio"><progress></progress></span>
+            <span class="icons-link__barprogress"><progress></progress></span>
             
-            <span>2:54</span>
-            <progress value="22" max="100"></progress>
-            <span>2:54</span>        
+            <span class="icons-link__time">2:54</span>
+            <progress value="22" max="100" class="icons-link__barprogress"></progress>
+            <span class="icons-link__time">2:54</span>        
        
         </div>
-        <button type="button"></button>
-        <button type="button"></button>
+        <button type="button" class="btn btn_transparent"></button>
+        <button type="button"  class="btn btn_transparent"></button>
         
     </section>
 
